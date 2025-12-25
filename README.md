@@ -9,7 +9,8 @@ Este guia fornece um passo a passo detalhado sobre como configurar o **Microsoft
 * Laptop com **macOS** e **Visual Studio Code** instalado.
 * Ambos os dispositivos devem estar na **mesma rede local**.
 
-<img width="1909" height="1067" alt="image" src="https://github.com/user-attachments/assets/1314c50b-a8b7-41b9-bd0d-938cb5d962bb" />
+<img width="1906" height="1074" alt="image" src="https://github.com/user-attachments/assets/49a78675-9605-417a-b22c-8653ba89ffd6" />
+
 
 
 ---
