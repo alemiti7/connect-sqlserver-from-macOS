@@ -261,6 +261,12 @@ if __name__ == "__main__":
 **Script (`get_comandos.sql`):**
 ---
 
+```sql
+
+SELECT top 5 * FROM dbo.PRODUTOS
+
+```
+
 <img width="1105" height="414" alt="image" src="https://github.com/user-attachments/assets/43f2e5e3-ab23-499c-8486-2b0737e1cc73" />
 
 
