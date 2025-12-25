@@ -1,6 +1,14 @@
 # 🗄️ SQL Server Remote Access from macOS (VS Code)
+-- Configuração de Acesso Remoto: SQL Server no Windows para VS Code no macOS --
 
-Este guia prático documenta o processo de configuração para conectar o **Visual Studio Code no macOS Ventura** a uma instância do **SQL Server instalada em um laptop Windows** na mesma rede local.
+Este guia fornece um passo a passo detalhado sobre como configurar o Microsoft SQL Server (instalado em um laptop Windows) para aceitar conexões remotas vindas do Visual Studio Code em um ambiente macOS (Ventura ou superior).
+
+📋 Pré-requisitos
+Laptop com Windows e SQL Server instalado (Versão 2025/17.x ou anterior).
+
+Laptop com macOS e Visual Studio Code instalado.
+
+Ambos os dispositivos devem estar na mesma rede local.
 
 <img width="1909" height="1067" alt="image" src="https://github.com/user-attachments/assets/1314c50b-a8b7-41b9-bd0d-938cb5d962bb" />
 
@@ -24,6 +32,7 @@ Para permitir que o SQL Server "escute" conexões de outros computadores, é nec
 3. **Reinicie o serviço** do SQL Server para aplicar as mudanças.
 
 <img width="1186" height="630" alt="image" src="https://github.com/user-attachments/assets/334c7288-5dd4-4c72-9f9e-80401d75a7b6" />
+
 
 
 ### 1.2 Segurança e Login (SSMS)
