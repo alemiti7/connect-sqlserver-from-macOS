@@ -8,13 +8,13 @@ from tabulate import tabulate
 load_dotenv()
 
 def read_sql_file(file_name):
-    """Lê o conteúdo de um arquivo .sql dentro da pasta /sql."""
-    file_path = os.path.join(os.path.dirname(__file__), 'sql', file_name)
+    """Lê o conteúdo de um arquivo .sql na mesma pasta do script."""
+    file_path = os.path.join(os.path.dirname(__file__), file_name)
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             return f.read()
     except FileNotFoundError:
-        print(f"❌ Erro: Arquivo {file_name} não encontrado na pasta /sql.")
+        print(f"❌ Erro: Arquivo {file_name} não encontrado na pasta principal.")
         return None
 
 def connect_and_execute():
