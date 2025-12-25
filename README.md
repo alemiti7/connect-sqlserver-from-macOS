@@ -24,9 +24,13 @@ Para permitir que o SQL Server "escute" conexões de outros computadores, é nec
 <img width="1273" height="684" alt="image" src="https://github.com/user-attachments/assets/00f2e15b-3099-469c-9f4b-cf7bdd678286" />
 
 
+
+
 2. Nas propriedades do TCP/IP, vá na aba **Endereços IP** e certifique-se de definir a porta **1433** na seção **IPAll**.
 
 <img width="1277" height="687" alt="image" src="https://github.com/user-attachments/assets/8fedf057-e06a-42fe-b98c-51b1d38a79a4" />
+
+
 
 
 3. **Reinicie o serviço** do SQL Server para aplicar as mudanças.
@@ -160,6 +164,21 @@ except Exception as e:
 2. **Cheat Sheet SQL:** Inclua uma lista de diferenças entre T-SQL e outros bancos (ex: `TOP` vs `LIMIT`).
 3. **Backup Automatizado:** Documente scripts Python para gerar backups diários do banco para o macOS.
 4. **Monitoramento:** Crie um alerta que verifica se o serviço do SQL Server está ativo no servidor remoto.
+
+## 🤝 Contribuindo
+
+Formas de contribuir:
+- Sugerir melhorias e reportar bugs
+- Compartilhar scripts de automação do SEI!
+
+## ✒️ Autores
+
+* ** Alexandre Mitsuru Nikaitow ** - *Desenvolvimento Inicial* - https://github.com/alemiti7
+
+📞 Contato
+Alexandre
+📧 alemiti@gmail.com
+⌨️ com ❤️ por [@alemiti7]([https://github.com/alemiti7]) 😊
 
 ---
 
