@@ -123,7 +123,42 @@ Pressione `Cmd + Shift + E` para ver os resultados na grade lateral.
 
 Com o acesso liberado, você pode automatizar tarefas usando Python no seu Mac.
 
-Exemplos práticos: 
+## 🚀 Exemplos prático: 
+
+main_get.py
+get_comando.sql
+
+### 📋 O que o script faz:
+
+* **Autenticação Segura:** Utiliza a biblioteca `python-dotenv` para carregar credenciais sensíveis de um arquivo externo, evitando a exposição de senhas no código-fonte.
+* **Gestão de Consultas SQL:** Lê comandos SQL diretamente de arquivos `.sql` externos (como o `get_comandos.sql`), facilitando a manutenção de queries complexas.
+* **Conexão Robusta:** Utiliza o driver `ODBC 18` para estabelecer uma conexão segura (SSL/TLS) com o banco de dados.
+* **Interface no Terminal:** Formata os resultados da consulta em tabelas visuais organizadas (`fancy_grid`) e detecta automaticamente se a saída está sendo exibida no terminal ou redirecionada para um arquivo, ajustando o uso de cores (ANSI) conforme necessário.
+
+---
+
+### 🔐 Configuração do Ambiente (.env)
+
+Para que o script funcione, é **obrigatório** criar um arquivo chamado `.env` na raiz do projeto. 
+
+Configure as seguintes variáveis dentro dele:
+
+```env
+DB_SERVER=IP_DO_SQL_SERVER
+DB_NAME=NOME_DO_BANCO_A_SER_CONECTADO
+DB_USER=sa
+DB_PASS=SENHA_DO_USUARIO_sa
+
+```
+
+### 🛠️ Tecnologias Utilizadas:
+
+* **Python 3**
+* **pyodbc**: Para conexão com o banco.
+* **tabulate**: Para formatação visual dos dados.
+* **python-dotenv**: Para gestão de variáveis de ambiente.
+
+---
 
 **Instalação:**
 
@@ -132,7 +167,7 @@ pip install pyodbc
 
 ```
 
-**Script de Exemplo (`main_get.py`):**
+**Script (`main_get.py`):**
 
 ```python
 import pyodbc
@@ -223,9 +258,10 @@ if __name__ == "__main__":
     connect_and_execute()
 
 ```
-
+**Script (`get_comandos.sql`):**
 ---
 
+<img width="895" height="205" alt="image" src="https://github.com/user-attachments/assets/15828d45-65ef-49b2-8531-7691c5ef2d9e" />
 
 
 
