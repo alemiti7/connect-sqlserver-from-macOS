@@ -297,10 +297,6 @@ Formas de contribuir:
 - Sugerir melhorias e reportar bugs
 - Compartilhar scripts de automação do SEI!
 
-## ✒️ Autores
-
-* ** Alexandre Mitsuru Nikaitow ** - *Desenvolvimento Inicial* - https://github.com/alemiti7
-
 📞 Contato
 Alexandre
 📧 alemiti@gmail.com
