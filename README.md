@@ -14,7 +14,7 @@ Este guia fornece um passo a passo detalhado sobre como configurar o **Microsoft
 
 ---
 
-## 🛠️ 1. Configuração no Windows (Servidor)
+## 🛠️ Passo 1: Configuração do Servidor (No Windows)
 
 ### 1.1 SQL Server Configuration Manager
 Para permitir que o SQL Server "escute" conexões de outros computadores, é necessário habilitar o protocolo TCP/IP.
@@ -28,22 +28,12 @@ Para permitir que o SQL Server "escute" conexões de outros computadores, é nec
 
 <img width="1277" height="687" alt="image" src="https://github.com/user-attachments/assets/8fedf057-e06a-42fe-b98c-51b1d38a79a4" />
 
+
 3. **Reinicie o serviço** do SQL Server para aplicar as mudanças.
 
 <img width="1186" height="630" alt="image" src="https://github.com/user-attachments/assets/334c7288-5dd4-4c72-9f9e-80401d75a7b6" />
 
 ---
-
-## 🛠️ Passo 1: Configuração do Servidor (No Windows)
-
-### 1.1 Habilitar Protocolo TCP/IP
-
-O SQL Server, por padrão, não permite conexões de rede. Precisamos ativar o protocolo TCP/IP.
-
-1. Abra o **SQL Server Configuration Manager**.
-2. Vá em **Configuração de Rede do SQL Server** > **Protocolos para MSSQLSERVER**.
-3. Clique com o botão direito em **TCP/IP** e selecione **Habilitar**.
-4. Nas propriedades de **TCP/IP**, vá na aba **Endereços IP**, role até **IPAll** e defina a **Porta TCP** como `1433`. Certifique-se de que "Portas TCP Dinâmicas" esteja vazio.
 
 ### 1.2 Habilitar Autenticação Mista e Usuário `sa`
 
@@ -108,6 +98,9 @@ Para testar, abra uma **New Query** e execute:
 SELECT TOP 5 * FROM sys.tables;
 
 ```
+<img width="1573" height="972" alt="image" src="https://github.com/user-attachments/assets/90b836bd-fc83-4c89-951c-344d952f25ac" />
+
+
 
 Pressione `Cmd + Shift + E` para ver os resultados na grade lateral.
 
@@ -123,8 +116,4 @@ Pressione `Cmd + Shift + E` para ver os resultados na grade lateral.
 
 ### Dicas para as Imagens no GitHub:
 
-Ao subir para o seu repositório:
 
-1. Crie uma pasta chamada `/images`.
-2. Renomeie suas fotos para nomes descritivos (ex: `firewall_config.png`, `vscode_connection.png`).
-3. No arquivo `README.md`, aponte para elas usando o código: `![Descrição](images/nome_da_imagem.png)`.
