@@ -2,6 +2,8 @@
 
 Este guia prático documenta o processo de configuração para conectar o **Visual Studio Code no macOS Ventura** a uma instância do **SQL Server instalada em um laptop Windows** na mesma rede local.
 
+<img width="1654" height="972" alt="image" src="https://github.com/user-attachments/assets/4eda3cfe-52a3-4ac6-921d-fb23f0f951f9" />
+
 ---
 
 ## 🛠️ 1. Configuração no Windows (Servidor)
