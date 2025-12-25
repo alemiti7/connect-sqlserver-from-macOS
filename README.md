@@ -261,8 +261,26 @@ if __name__ == "__main__":
 **Script (`get_comandos.sql`):**
 ---
 
-<img width="895" height="205" alt="image" src="https://github.com/user-attachments/assets/15828d45-65ef-49b2-8531-7691c5ef2d9e" />
+<img width="1105" height="414" alt="image" src="https://github.com/user-attachments/assets/43f2e5e3-ab23-499c-8486-2b0737e1cc73" />
 
+
+---
+
+### 🚀 Como Executar
+
+Após configurar o arquivo `.env` e instalar as dependências, basta executar o script principal através do terminal do VS Code:
+
+```bash
+python main_get.py
+
+```
+
+* **Execução**: O comando acima inicia o script `main_get.py`, que carrega as configurações e realiza a consulta.
+* **Fluxo**: O script lerá as instruções contidas no arquivo `get_comandos.sql` e exibirá os resultados diretamente no seu console.
+
+<img width="1100" height="397" alt="image" src="https://github.com/user-attachments/assets/79e2b91e-4924-41ee-afdd-d18427a659a4" />
+
+---
 
 
 
