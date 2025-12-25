@@ -1,0 +1,15 @@
+# Variáveis de Ambiente (Contém senhas e IPs)
+.env
+
+# Bibliotecas e Ambientes Virtuais
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos de log e temporários
+*.log
