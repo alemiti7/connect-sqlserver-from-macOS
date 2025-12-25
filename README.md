@@ -294,13 +294,12 @@ python main_get.py
 ## 🤝 Formas de contribuir:
 
 - Sugerir melhorias e reportar bugs
-- Compartilhar scripts de automação do SEI!
 
 📞 Contato:
 
 Alexandre
 📧 alemiti@gmail.com
-⌨️ com ❤️ por [@alemiti7]([https://github.com/alemiti7]) 😊
+[@alemiti7]([https://github.com/alemiti7]) 😊
 
 ---
 
