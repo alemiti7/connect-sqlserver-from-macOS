@@ -2,7 +2,8 @@
 
 Este guia prático documenta o processo de configuração para conectar o **Visual Studio Code no macOS Ventura** a uma instância do **SQL Server instalada em um laptop Windows** na mesma rede local.
 
-<img width="1654" height="972" alt="image" src="https://github.com/user-attachments/assets/4eda3cfe-52a3-4ac6-921d-fb23f0f951f9" />
+<img width="1909" height="1067" alt="image" src="https://github.com/user-attachments/assets/1314c50b-a8b7-41b9-bd0d-938cb5d962bb" />
+
 
 ---
 
@@ -12,8 +13,18 @@ Este guia prático documenta o processo de configuração para conectar o **Visu
 Para permitir que o SQL Server "escute" conexões de outros computadores, é necessário habilitar o protocolo TCP/IP.
 
 1. No **SQL Server Configuration Manager**, habilite o protocolo **TCP/IP**.
+
+<img width="1273" height="684" alt="image" src="https://github.com/user-attachments/assets/00f2e15b-3099-469c-9f4b-cf7bdd678286" />
+
+
 2. Nas propriedades do TCP/IP, vá na aba **Endereços IP** e certifique-se de definir a porta **1433** na seção **IPAll**.
+
+<img width="1277" height="687" alt="image" src="https://github.com/user-attachments/assets/8fedf057-e06a-42fe-b98c-51b1d38a79a4" />
+
 3. **Reinicie o serviço** do SQL Server para aplicar as mudanças.
+
+<img width="1186" height="630" alt="image" src="https://github.com/user-attachments/assets/334c7288-5dd4-4c72-9f9e-80401d75a7b6" />
+
 
 ### 1.2 Segurança e Login (SSMS)
 O SQL Server precisa aceitar conexões via usuário e senha (Autenticação Mista).
