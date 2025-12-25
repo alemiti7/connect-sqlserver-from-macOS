@@ -114,6 +114,55 @@ Pressione `Cmd + Shift + E` para ver os resultados na grade lateral.
 
 ---
 
-### Dicas para as Imagens no GitHub:
+## 🐍 Automação com Python
+
+Com o acesso liberado, você pode automatizar tarefas usando Python no seu Mac.
+
+**Instalação:**
+
+```bash
+pip install pyodbc
+
+```
+
+**Script de Exemplo (`export_data.py`):**
+
+```python
+import pyodbc
+
+conn_str = (
+    "DRIVER={ODBC Driver 18 for SQL Server};"
+    "SERVER=192.168.0.21;" # IP do seu laptop Windows
+    "DATABASE=Curso;"      # Seu banco de dados
+    "UID=sa;"
+    "PWD=SuaSenhaAqui;"
+    "TrustServerCertificate=yes;"
+)
+
+try:
+    conn = pyodbc.connect(conn_str)
+    cursor = conn.cursor()
+    # No SQL Server, usamos TOP em vez de LIMIT
+    cursor.execute("SELECT TOP 5 * FROM sys.tables")
+    for row in cursor:
+        print(row)
+    conn.close()
+except Exception as e:
+    print(f"Erro: {e}")
+
+```
+
+---
+
+## 🚀 Dicas de Expansão
+
+1. **Scripts de Firewall:** Adicione um arquivo `.ps1` no repositório para automatizar a abertura de portas no Windows.
+2. **Cheat Sheet SQL:** Inclua uma lista de diferenças entre T-SQL e outros bancos (ex: `TOP` vs `LIMIT`).
+3. **Backup Automatizado:** Documente scripts Python para gerar backups diários do banco para o macOS.
+4. **Monitoramento:** Crie um alerta que verifica se o serviço do SQL Server está ativo no servidor remoto.
+
+---
+
+
 
 
