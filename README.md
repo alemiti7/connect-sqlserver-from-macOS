@@ -125,8 +125,8 @@ Com o acesso liberado, você pode automatizar tarefas usando Python no seu Mac.
 
 ## 🚀 Exemplos prático: 
 
-main_get.py
-get_comando.sql
+- main_get.py
+- get_comando.sql
 
 ### 📋 O que o script faz:
 
