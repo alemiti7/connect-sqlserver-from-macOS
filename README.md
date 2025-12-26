@@ -75,4 +75,4 @@ python main_get.py
 2. Crie uma **Branch** para sua modificação (`git checkout -b feature/nova-feature`).
 3. Abra um **Pull Request**.
 
-Para bugs e sugestões: [alemiti@gmail.com](mailto:alemiti@gmail.com).
+Para bugs e sugestões: [alemiti@gmail.com](mailto:alemiti@gmail.com)
