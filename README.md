@@ -1,5 +1,4 @@
 
-```markdown
 # 🗄️ SQL Server Remote Access (macOS/VS Code)
 
 Guia de configuração para acesso remoto entre instâncias **SQL Server (Windows)** e o **VS Code (macOS)**, incluindo automação de consultas via Python.
