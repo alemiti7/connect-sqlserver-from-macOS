@@ -75,4 +75,3 @@ python main_get.py
 
 Para bugs e sugestões: [alemiti@gmail.com](mailto:alemiti@gmail.com)
 
-```
