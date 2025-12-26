@@ -3,7 +3,7 @@
 
 Guia de configuração para acesso remoto entre instâncias **SQL Server (Windows)** e o **VS Code (macOS)**, incluindo automação de consultas via Python.
 
-## 📌 Sumário
+## Sumário
 
 - [Funcionalidades](#funcionalidades)
 - [Arquitetura](#arquitetura)
@@ -12,21 +12,21 @@ Guia de configuração para acesso remoto entre instâncias **SQL Server (Window
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 * **Conexão Cross-Platform:** Acesso estável ao SQL Server via macOS.
 * **Automação SQL:** Execução de scripts `.sql` externos via Python.
 * **Segurança:** Gestão de credenciais via variáveis de ambiente (`.env`).
 * **Visualização:** Formatação de resultados em tabelas no terminal.
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 A solução estabelece um túnel de comunicação via **TCP/IP** na porta **1433**.
 
 * **Servidor (Host):** Windows + SQL Server (Auth Mista).
 * **Cliente:** macOS + VS Code (Extensão mssql) + Python 3 (Driver ODBC 18).
 
-## 🛠️ Instalação
+## Instalação
 
 ### 1. Configuração do Servidor (Windows)
 
@@ -67,7 +67,7 @@ python main_get.py
 
 ```
 
-## 🤝 Contribuição
+## Contribuição
 
 1. Realize um **Fork** do projeto.
 2. Crie uma **Branch** para sua modificação (`git checkout -b feature/nova-feature`).
