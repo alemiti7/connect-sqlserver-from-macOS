@@ -4,7 +4,7 @@ Guia de configuração para acesso remoto entre instâncias **SQL Server (Window
 
 ## 📌 Sumário
 
-* [Funcionalidades](https://github.com/alemiti7/connect-sqlserver-from-macOS/blob/main/README.md/search?q=%23-funcionalidades)
+* [Funcionalidades](#funcionalidades)
 * [Arquitetura](https://www.google.com/search?q=%23-arquitetura)
 * [Instalação](https://www.google.com/search?q=%23-instala%C3%A7%C3%A3o)
 * [Contribuição](https://www.google.com/search?q=%23-contribui%C3%A7%C3%A3o)
@@ -77,26 +77,3 @@ python main_get.py
 3. Abra um **Pull Request**.
 
 Para bugs e sugestões: [alemiti@gmail.com](mailto:alemiti@gmail.com).
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-
----
-
-
-## 🤝 Formas de contribuir:
-
-- Sugerir melhorias e reportar bugs
-
-📞 Contato:
-
-Alexandre
-alemiti@gmail.com
-😊
-
----
-
-
-
-
