@@ -5,10 +5,9 @@ Guia de configuração para acesso remoto entre instâncias **SQL Server (Window
 ## 📌 Sumário
 
 * [Funcionalidades](#funcionalidades)
-* [Arquitetura](https://www.google.com/search?q=%23-arquitetura)
-* [Instalação](https://www.google.com/search?q=%23-instala%C3%A7%C3%A3o)
-* [Contribuição](https://www.google.com/search?q=%23-contribui%C3%A7%C3%A3o)
-* [Licença](https://www.google.com/search?q=%23-licen%C3%A7a)
+* [Arquitetura](#arquitetura)
+* [Instalação](#instalação)
+* [Contribuição](#contribuição)
 
 ---
 
